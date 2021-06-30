@@ -5,7 +5,7 @@ maybe_actions = ["rock", "paper", "scissors"]
 AI_action = random.choice(maybe_actions)
 print(f"\nYou chose {player_action}, AI chose {AI_action}.\n")
 
-if player_action == computer_action:
+if player_action == AI_action:
     print(f"Each player chose {player_action}. It's specified as a tie!")
 elif player_action == "rock":
     if AI_action == "scissors":
